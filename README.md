@@ -1,23 +1,5 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
-
-## Project title  
-React Native App
-
-## description
+## Description
 React Native App aims to give consumers a simple and enjoyable experience.The app features a clean and modern user interface, enabling users to seamlessly navigate between different sections. the navigation system mixes drawer navigation for more options with bottom tab navigation for main areas.
-
-
-## Project Screenshots
-
-![Login Page](./asset/images/loginpageOutput.png?raw=true "LOgin Page")
-![Profile Page Validation](./asset/images/validationLoginOutput.png?raw=true "Profile Page With Validation")
-![Home page](./asset/images/homeOutput.png?raw=true "Home Page")
-![Profile Page](./asset/images/profileOutput.png?raw=true "Profile Page")
-![settings Page](./asset/images/settingsOutput.png?raw=true "Settings Page")
-![Drawer Window](./asset/images/drawerOutput.png?raw=true "Settings Page")
-
-
 
 ## Project Features
 **Login Page**: Users can log in with form validation to ensure correct input.
@@ -100,23 +82,20 @@ Bottom Tab Navigation: For primary pages (Home, Profile, Settings).
 Drawer Navigation: For additional navigation options and settings.
 
 
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
 # Future Update 
-1. Aenhancing each page's component's functionality.
-2. include more features
+1. Unit test cases
+2. story book
+3. Api intergration
+4. IOS testing 
 
-# Learn More
+## Screenshots
 
-To learn more about React Native, take a look at the following resources:
+![Login Page](./asset/images/loginpageOutput.png?raw=true "LOgin Page")
+![Profile Page Validation](./asset/images/validationLoginOutput.png?raw=true "Profile Page With Validation")
+![Home page](./asset/images/homeOutput.png?raw=true "Home Page")
+![Profile Page](./asset/images/profileOutput.png?raw=true "Profile Page")
+![settings Page](./asset/images/settingsOutput.png?raw=true "Settings Page")
+![Drawer Window](./asset/images/drawerOutput.png?raw=true "Settings Page")
 
 - [React Native Website](https://reactnative.dev) - learn more about React Native.
 
