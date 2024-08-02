@@ -1,19 +1,13 @@
 ## Description
 React Native App aims to give consumers a simple and enjoyable experience.The app features a clean and modern user interface, enabling users to seamlessly navigate between different sections. the navigation system mixes drawer navigation for more options with bottom tab navigation for main areas.
-
-## Project Features
 **Login Page**: Users can log in with form validation to ensure correct input.
 **Home Page**: The main landing page after login. 
 **Profile Page**: Displays user profile information. 
-
 **Settings Page**: Allows users to adjust app settings. 
-
 **Navigation**: Utilizes bottom bar navigation and drawer navigation for seamless navigation between pages. 
 
 # Getting Started
-
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
 
 ## Step 1: Install Library
 
@@ -22,7 +16,6 @@ React Native App aims to give consumers a simple and enjoyable experience.The ap
 npm install
 
 ```
-
 ## Step 2: Start Application
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -47,7 +40,6 @@ npm run android
 # OR using Yarn
 yarn android
 ```
-
 ### For iOS
 
 ```bash
