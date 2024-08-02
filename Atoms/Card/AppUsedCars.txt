@@ -1,0 +1,94 @@
+import { StyleSheet } from 'react-native';
+
+export const CardStyles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  container: {
+    backgroundColor: '#eff4ef',
+    borderRadius: 10,
+    marginTop: 5,
+    height: 120,
+    width: 120,
+    paddingRight: 10,
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  
+  image: {
+    height: 40,
+    width: 40,
+    objectFit: "contain"
+  },
+  text: {
+    marginTop: 10,
+    fontSize: 16,
+    color: 'black',
+    textAlign: "auto",
+    padding: 5
+  },
+  row: {
+    flexDirection: 'row',
+    alignContent: "flex-start",
+    justifyContent: 'space-between',
+    marginBottom: 10,
+  },
+  cardContainer: {
+    flex: 1,
+    padding: 7,
+  },
+});
+
+
+
+import React from 'react';
+import { View, Image, Text, StyleSheet, ImageSourcePropType } from 'react-native';
+import { CardStyles } from './CardStyles';
+
+interface CardProps {
+    imageUri?:ImageSourcePropType;
+    title?: string;
+    content?: string;
+
+  };
+
+export default function DynamicCard({imageUri,title}:CardProps) {
+  
+  return (
+    <View>
+      <Image source={imageUri} style={CardStyles.image} />
+        <Text style={CardStyles.text}>{title}</Text>
+        {/* <Text >{content}</Text> */}
+    </View>
+  )
+}
+
+
+
+import React from 'react';
+import { View } from 'react-native';
+import SearchBars from '../Atoms/SearchBar/SearchBars';
+import DynamicCard from '../Atoms/Card/DynamicCard';
+import { home, cleaning, painting, heating, plumbing, electrical } from '../Atoms/Card/ImageImport';
+import { CardStyles } from '../Atoms/Card/CardStyles';
+
+export default function HomePage() {
+  return (
+    <View style={CardStyles.mainContainer}>
+      <SearchBars placeholder="Search Here" />
+      <View style={CardStyles.cardContainer}>
+        <View style={CardStyles.row}>
+          <DynamicCard title="Remodel" imageUri={home} />
+          <DynamicCard title="Cleaning" imageUri={cleaning} />
+          <DynamicCard title="Painting" imageUri={painting} />
+        </View>
+        <View style={CardStyles.row}>
+          <DynamicCard title="Heating" imageUri={heating} />
+          <DynamicCard title="Plumbing" imageUri={plumbing} />
+          <DynamicCard title="Electrical" imageUri={electrical} />
+        </View>
+      </View>
+    </View>
+  );
+}
