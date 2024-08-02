@@ -9,18 +9,14 @@ React Native App aims to give consumers a simple and enjoyable experience.The ap
 
 
 ## Project Screenshots
+
 ![Login Page](./asset/images/loginpageOutput.png?raw=true "LOgin Page")
- **Login Page**
 ![Profile Page Validation](./asset/images/validationLoginOutput.png?raw=true "Profile Page With Validation")
- **Login Page Validation**
 ![Home page](./asset/images/homeOutput.png?raw=true "Home Page")
- **Home Page**
 ![Profile Page](./asset/images/profileOutput.png?raw=true "Profile Page")
-**Profile Page**
 ![settings Page](./asset/images/settingsOutput.png?raw=true "Settings Page")
- **Settings page**
-![Drawer Window](./asset/images/drawerOutput.png?raw=true "Drawer Window")
-**Drawer**
+![Drawer Window](./asset/images/drawerOutput.png?raw=true "Settings Page")
+
 
 
 ## Project Features
